@@ -1,0 +1,52 @@
+extends layout
+
+block content
+  div.head-img
+    img(src="/images/timg.jpg")
+  div.head
+    div.head-name 
+      p 路人·的·客栈
+    nav.head-nav(class="navbar navbar-expand-md navbar-inverse bg-inverse fixed-top")
+      div.nav-div-contain
+        ul(class="navbar-ul")
+          li.nav-item 魅力四射
+          li.nav-item 每日生活
+          li.nav-item 杂言杂语
+          li.nav-item 五味陈杂
+  div.content
+    div.img-div
+      img(src="/images/art.jpg")
+      div.img-text
+        p 
+          strong 渡人如渡己，渡已，亦是渡
+        当我们被误解时，会花很多时间去辩白。 但没有用，没人愿意听，大家习惯按自己的所闻、理解做出判别，每个人其实都很固执。与其努力且痛苦的试图扭转别人的评判，不如默默承受，给大家多一点时间和空间去了解。而我们省下辩解的功夫，去实现自身更久远的人生价值。其实，渡人如渡己，渡已，亦是渡人。
+    div.card
+      h1 我的名片
+      p > 彦墨
+      p > 21岁 摩羯座 女 现居金华
+      p > 爱好： 读书 爬山
+    div.articles
+      each blog in [1,2,3,4,5]
+        div.blog
+          div.ti
+          div.ci
+          h1 标题
+          div.blog-content
+            img(src="/images/s1.jpg")
+            p 我希望我的爱情是这样的，相濡以沫，举案齐眉，平淡如水。我在岁月中找到他，依靠他，将一生交付给他。做他的妻子，他孩子的母亲，为他做饭，洗衣服，缝一颗掉了的纽扣。然后，我们一起在时光中变老。
+          div.details
+            span.submit-time 2017-5-25
+            div.detail-icon
+              span(class="glyphicon glyphicon-heart") 20
+              span(class="glyphicon glyphicon-edit") 25
+    div.others
+      div.leave-message-board 
+        h3 留言栏
+        textarea.text-input
+        div.send-messages 发表
+        div.messages
+          each message in [1,2,3]
+            div.message
+              h3 name
+              p 啦啦啦啦
+              span 2017-10-5

@@ -1,0 +1,227 @@
+body {
+  padding: 0px;
+  margin:0px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.head-img{
+  float: left;
+}
+.head-img img{
+  width: 150px;
+  height: 125px;
+}
+.head{
+  background: #fff;
+  padding-top: 20px;
+}
+.head-name{
+  margin-left: 150px;
+  font-family: "微软雅黑";
+  font-size: 30px;
+  color: #888;
+  -webkit-box-reflect: below 5px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(white));
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+}
+.head-nav{
+  background: rgba(255,255,255,0.5);
+  border-radius: 0px;
+  border: 0px;
+  cursor: pointer;
+  border-bottom: 2px solid #222;
+}
+
+.nav-div-contain{
+  float: left;
+  margin-left: 400px;
+}
+.navbar-ul{
+  list-style-type: none;
+  margin-right: 250px;
+}
+
+.navbar-ul .nav-item{
+  font-size: 25px;
+  float: left;
+  color: #000;
+  margin-right: 20px;
+  font-family: "微软雅黑";
+}
+
+.navbar-ul .nav-item:hover{
+  color: #888;
+}
+
+.content{
+  width: 100%;
+  margin: 20px 150px;
+  overflow: hidden;
+  clear: both;
+}
+.img-div{
+  width: 630px;
+  position: relative;
+  -webkit-animation: pageTop 6s ease 0.5s backwards;
+  -moz-animation: pageTop 6s ease 0.5s backwards;
+  -ms-animation: pageTop 6s ease 0.5s backwards;
+  -o-animation: pageTop 6s ease 0.5s backwards;
+  animation: pageTop 6s ease 0.5s backwards;
+  float: left;
+  cursor: pointer;
+}
+.img-text{
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  background: rgba(153,153,153,.8);
+  color: white;
+  opacity: 0;
+  -webkit-transition: opacity .75s ease-out;
+  -moz-transition: opacity .75s ease-out;
+  -o-transition: opacity .75s ease-out;
+  transition: opacity .75s ease-out;
+}
+.content img{
+  border: 0;
+  vertical-align: middle;
+}
+
+.content .img-div:hover .img-text{
+  opacity: 1;
+}
+
+.card{
+  float: left;
+  height: 250px;
+  width: 300px;
+  padding: 10px;
+  margin-left: 50px;
+  border: 2px solid #222;
+  border-radius: 5px;
+}
+.card h1{
+  margin:10px 0px;
+  margin-left: 5px;
+  font-size: 25px;
+}
+.card p{
+  margin-left: 25px;
+}
+
+.articles{
+  margin-top: 20px;
+  padding-top: 10px;
+  width: 660px;
+  border-right: 2px solid #222;
+  float: left;
+}
+
+.blog{
+  margin-top: 20px;
+  border: 2px solid #222;
+  border-radius: 5px;
+  width: 630px;
+  height: 210px;
+  position: relative;
+}
+
+.blog h1{
+  margin: 10px 5px;
+  font-size: 20px;
+
+}
+.blog .ti{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0px 0 20px 22px;
+    border-color: transparent transparent transparent #111;
+    position: absolute;
+    left: 628px;
+    top: 20px;
+}
+.blog .ci{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 651.8px;
+  top: 16px;
+  background: #000;
+  border: 2px solid #333;
+}
+.blog .blog-content{
+  position: relative;
+  height: 120px;
+}
+.blog .blog-content img{
+  width: 150px;
+  padding: 4px;
+  position: absolute;
+}
+.blog .blog-content p{
+  position: absolute;
+  left: 160px;
+  line-height: 24px;
+}
+.blog .details .submit-time{
+  margin-left: 4px;
+}
+.blog .details .detail-icon{
+  float: right;
+}
+.blog .details .detail-icon span{
+  margin-right: 25px;
+}
+
+.others{
+  float: left;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.leave-message-board{
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #222;
+  border-radius: 5px;
+}
+.leave-message-board h3{
+  margin:0px;
+  margin-bottom: 10px;
+}
+.leave-message-board .text-input{
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 80px;
+  max-height: 80px;
+}
+.send-messages{
+  width: 50px;
+  height: 25px;
+  border: 1px solid #222;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 80%;
+}
+.send-messages:hover{
+  background: #fed;
+}
+.message{
+  border-bottom: 1px solid #222;
+  padding-bottom: 10px;
+}
+.message h3{
+  margin:0px;
+}
+.message p{
+  margin: 2px 0px;
+  margin-left: 10px;
+}
+.message span{
+
+}
